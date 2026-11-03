@@ -36,7 +36,6 @@
 请使用 $skill-installer 安装 https://github.com/yuan-fd/ai-handwriting-skill 仓库根目录的 Skill，安装名为 ai-handwriting-skill；保留 references、assets 和 scripts，并检查当前是否有支持参考图的图像生成功能。
 ```
 
-安装后，在新对话中使用 `$ai-handwriting-skill`。安装 Skill 本身不会自动开通图像生成工具。
 
 ### 手动安装
 
@@ -56,7 +55,7 @@ git clone https://github.com/yuan-fd/ai-handwriting-skill.git ~/.codex/skills/ai
 
 ```text
 使用 $ai-handwriting-skill。前两份是我的手写参考，第三份是要转换的解答。
-只保留题号、必要答题过程、公式和结果，不要题目、分值、电路图和额外讨论。
+只保留题号、必要答题过程、公式和结果，不要题目和额外讨论。
 字不要太工整，行首和行距不要对齐，保留自然连笔、字形变化、纸张阴影和扫描质感。
 最后给我一个多页 PDF。
 ```
@@ -122,7 +121,7 @@ ai-handwriting-skill/
 
 ## 反馈与贡献
 
-欢迎通过 [Issues](https://github.com/yuan-fd/ai-handwriting-skill/issues) 反馈效果问题，或提交改进提示词、公式排版与 PDF 导出的 PR。反馈时附上输入片段、提示词和效果图，并移除姓名、学号等个人信息。
+欢迎通过 [Issues](https://github.com/yuan-fd/ai-handwriting-skill/issues) 反馈效果问题，或提交改进提示词、公式排版与 PDF 导出的 PR。反馈时附上输入片段、提示词和效果图。
 
 本 Skill 侧重视觉转换，生成内容需要对照原文核查。参考自己的字迹能改善风格相似度，但不等于精确复刻完整个人字库。
 
